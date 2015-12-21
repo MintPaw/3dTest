@@ -2,12 +2,14 @@
 <project>
 	
 	<meta title="3dTest" package="com.sample.3dtest" version="1.0.0" company="Company Name" />
-	<app main="Main" path="Export" file="3dTest" />
+	<app main="Main" path="bin" file="3dTest" />
+	<window width="1280" height="720" />
 	
-	<source path="Source" />
+	<source path="src" />
 	
 	<haxelib name="openfl" />
+	<haxelib name="BabylonHx" />
 	
-	<assets path="Assets" rename="assets" />
+	<assets path="assets" />
 	
 </project>
