@@ -3,11 +3,17 @@
 	
 	<meta title="3dTest" package="com.sample.3dtest" version="1.0.0" company="Company Name" />
 	<app main="Main" path="bin" file="3dTest" />
+
 	<window width="1280" height="720" />
-	
+	<window fps="60" require-shaders="true" hardware="true" 
+		depth-buffer="true" stencil-buffer="true" antialiasing="0" />
+	<set name="webgl" if="html5" />
+	<set name="next" />
+
 	<source path="src" />
 	
 	<haxelib name="openfl" />
+	<haxelib name="flixel" />
 	<haxelib name="BabylonHx" />
 	
 	<assets path="assets" />
